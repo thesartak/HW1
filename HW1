@@ -1,0 +1,6 @@
+def f(x):
+    letter = len(x)//2
+    return x[letter-1:letter+1] if not len(x) % 2 else x[letter]
+
+print(f('halo'))
+print(f('world'))
